@@ -202,6 +202,6 @@ $ git rm --cached {檔案名稱}
 |      |刪除分支|git branch -d <branch-name>|
 |      |切換分支|git checkout <branch>|
 |      |合併分支|git merge <branch>|
-|      |同步資料puch更新GitHub與本地端同步|git puch origin <branch>|
-|      |建立分支|git puch origin <branch>|
+|      |同步資料push更新GitHub與本地端同步|git push origin <branch>|
+|      |建立分支|git push origin <branch>|
 |      |同步資料pull更新本地端與GitHub同步|git pull origin masster|
