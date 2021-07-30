@@ -185,9 +185,8 @@ $ git rm --cached {檔案名稱}
 1. 直接刪除(rm)檔案，git add -> 把這個刪除的動作加進去 git 裡
 2. git rm = 刪除 + git add這個刪除的動作
 ### Git 基本指令複習
-|  |  |  |
-| -------- | -------- | -------- |
 |第零步|初始化|git init|
+| -------- | -------- | -------- |
 |第一步|建立.gitignore忽略不要的檔案|touch .gitignore|
 |第二步|將所有檔案加入版本管理|git add .|
 |第三步|版本控制的狀態|git status|
@@ -196,12 +195,12 @@ $ git rm --cached {檔案名稱}
 |第六步|修改檔案後commit ==(不會包含新建立的檔案)還是要git add .一次==|git commit -am"second commit"|
 |第七步|看commitID跟歷史紀錄...有兩個版本|git log|
 |第八步|回到某個版本|git checkout <commitID>|
-||||
-|      |建立分支|git branch <branch-name>|
-|      |查看分支|git branch -v|
-|      |刪除分支|git branch -d <branch-name>|
-|      |切換分支|git checkout <branch>|
-|      |合併分支|git merge <branch>|
-|      |同步資料push更新GitHub與本地端同步|git push origin <branch>|
-|      |建立分支|git push origin <branch>|
-|      |同步資料pull更新本地端與GitHub同步|git pull origin masster|
+
+|建立分支|git branch <branch-name>|
+| -------- | -------- |
+|查看分支|git branch -v|
+|刪除分支|git branch -d <branch-name>|
+|切換分支|git checkout <branch>|
+|合併分支|git merge <branch>|
+|同步資料push更新GitHub與本地端同步|git push origin <branch>|
+|同步資料pull更新本地端與GitHub同步|git pull origin masster|
