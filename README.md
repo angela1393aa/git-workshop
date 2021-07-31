@@ -1,4 +1,4 @@
-# 這是我用來練習git的專案
+# 練習git的專案
 ###### tags:`資策會-前端工程師就業養成班` `git`
 ## 介紹專案:
 這個專案是我用來練習版本控制的專案，會說明怎麼安裝git及使用
@@ -205,4 +205,4 @@ $ git rm --cached {檔案名稱}
 |切換分支|git checkout <branch>|
 |合併分支|git merge <branch>|
 |同步資料push更新GitHub與本地端同步|git push origin <branch>|
-|同步資料pull更新本地端與GitHub同步|git pull origin masster|
+|同步資料pull更新本地端與GitHub同步|git pull origin master|
